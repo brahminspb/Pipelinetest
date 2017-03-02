@@ -1,3 +1,3 @@
 node {
-echo("hello from Pipeline");
+echo("pipeline test");
 }
