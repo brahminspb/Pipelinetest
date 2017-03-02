@@ -6,7 +6,7 @@ echo("another pipeline test");
 		def z = new org.antonb.shared.shared();
 		z.init();
 		constants.url = "www.spb.ru";
-		constants.fullUrl();
+		echo constants.fullUrl();
 		echo ('Init stage end');
 	}
 }
