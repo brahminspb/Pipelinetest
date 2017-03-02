@@ -1,3 +1,3 @@
 node {
-sh([script: 'echo hello'])
+echo("hello from Pipeline");
 }
